@@ -57,3 +57,5 @@ function getSizeScreen() {
 	screen.height+'</b>';
 	
 }
+
+
