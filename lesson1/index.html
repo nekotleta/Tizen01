@@ -130,19 +130,18 @@ frameborder="0" allowfullscreen></iframe>
 			x.fillStyle="blue"; 
 			x.fillText("canvas", 50, 125);
 			</script>
-			<canvas id='draw' width='256' height='256' style='border:1px solid;'></canvas> 
+			<canvas id='draw2' width='256' height='256' style='border:1px solid;'></canvas> 
 			<script type='text/javascript'>
-			var canvas=document.getElementById("draw")
-			var x=canvas.getContext("2d");
-			//x.strokeRect(18, 18, 260, 260);
+			var canvas2=document.getElementById("draw2")
+			var x=canvas2.getContext("2d");
 			x.fillStyle = '#000000';
 			x.fillRect(0, 0, 256, 256);
 			for (i=0; i<8; i+=2)
-			 for (j=0; j<8; j+=2) {
-			 	x.clearRect(i*32, j*32, 32, 32);
-			 	x.clearRect((i+1)*32, (j+1)*32, 32, 32);
-			 };
-			</script>			
+			for (j=0; j<8; j+=2) {
+				x.clearRect(i*32, j*32, 32, 32);
+				x.clearRect((i+1)*32, (j+1)*32, 32, 32);
+			}; 
+			</script>
 			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
 		</div><!-- /content -->
 	</div><!-- /page five -->
