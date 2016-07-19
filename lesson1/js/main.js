@@ -40,7 +40,7 @@ function checkTime(i) {
 	return i;
 }
 
-var flag = 0;
+var flag = 1;
 function changeImage() {
 	if (flag == 0) {
 		document.img.src = 'icon.png';
