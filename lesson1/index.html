@@ -69,6 +69,7 @@
 		     <li class="ui-group-index">Show internal pages:</li>
 			  <li class="ui-li-anchor"><a href="#two">Show page "two"</a></li>
 			  <li class="ui-li-anchor"><a href="#four">Show page "four"</a></li>
+			  <li class="ui-li-anchor"><a href="#five">Show page "five"</a></li>
 			</ul>
 		  </div>
 		
@@ -107,6 +108,44 @@ frameborder="0" allowfullscreen></iframe>
 			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
 		</div><!-- /content -->
 	</div><!-- /page four -->
+	
+	<!-- Start of fifth page: #five -->
+	<div class="ui-page" id="five">
+		<div class="ui-header">
+			<h1>Five</h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Five</h2>
+			<canvas id='draw' width='240' height='180' style='border:1px solid;'></canvas> 
+			<script type='text/javascript'>
+			var canvas=document.getElementById("draw")
+			var x=canvas.getContext("2d");
+			x.font = "italic 30pt Arial";
+			x.fillText("Tizen", 15, 40);
+			x.fillStyle="blue"; 
+			x.fillText("JavaScript", 15, 70);
+			x.fillStyle="red";
+			x.fillText("HTML5", 15, 120);
+			x.fillStyle="blue"; 
+			x.fillText("canvas", 50, 125);
+			</script>
+			<canvas id='draw' width='256' height='256' style='border:1px solid;'></canvas> 
+			<script type='text/javascript'>
+			var canvas=document.getElementById("draw")
+			var x=canvas.getContext("2d");
+			//x.strokeRect(18, 18, 260, 260);
+			x.fillStyle = '#000000';
+			x.fillRect(0, 0, 256, 256);
+			for (i=0; i<8; i+=2)
+			 for (j=0; j<8; j+=2) {
+			 	x.clearRect(i*32, j*32, 32, 32);
+			 	x.clearRect((i+1)*32, (j+1)*32, 32, 32);
+			 };
+			</script>			
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page five -->
 	
 		  
   <script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>

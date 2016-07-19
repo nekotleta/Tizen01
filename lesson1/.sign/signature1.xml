@@ -2,13 +2,17 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="_TouchCube.mp4">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>WDt5nkSIlmSsWmkRIqx5D9AquE/CXoMZ/nlcxRslPE4=</DigestValue>
+</Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>gLzZ6CwbD1CBDAQvWGkrumTutpeJHXdrnZQuMXb9EUc=</DigestValue>
+<DigestValue>qr+sDAEiwSSSeiSn1SoJy2jisz2ICbCyYaRe/9JEvBI=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>gemGcvrDFXV/p/9HaMkmFnhbDlJ31Ze0PkEah9ASr8g=</DigestValue>
+<DigestValue>GxMnvtZcNXhYmgZJ7gvFrGHjT/Buo0hxixCveI9WYFA=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,7 +28,7 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>44Xd0htrx5celpIxsujkigfickcp6bVgnaussxkstd8=</DigestValue>
+<DigestValue>XeEH3n2OyXAHp8DzlCxGmDmRA+5Qz15uMmQgu3gQ40o=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -791,11 +795,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-IpwK0WJ0sFNqtF/M8tKR3iP52FsAygH3OyHuBDQbqCgc3ImoYZhP55X2wC3neE2oTrV7FG5T77MK
-7byQ0DtuNUnA3ciRA4rg9zjnPMAsiz+EAxDZEpRTK8iDthTwjRWGpu+g9WLwoz9uqGzrlvuuqaab
-lTF6xGk2cDnJCYVWy/RWmu01gECtTPqiaql+eYLuQV9MrA9DV6xZrYsrmIGT4xXaVc7C3RdFZxrw
-sa79z7XeiVmg8klPu6ybM66pe58dw52AjxvcDnU8QVkU6og/8O1mrf4j5uphEkhQ7qrzxXQvlnC+
-c0eMBl0oxdWD83O2zbfyJmW55kY43PZ+Efix8A==
+aYYixLI+6aXdH+DLTxTBdV5ugcASn6UJjPTZLi3J6eYSMkb77GkeWaOwoc1UcZpYA8jlL+FIXUxS
+z60+tnePnnxdCRbKavqM3M1Sd9FzD6fOQqQU1dv5n3NjibcCsYzXfU/HX7sH4G8RNMGTRhPyTQ3W
+wsBKLOM81sW5jnzJueR2PWX2GRVg3L/VSBwWpPAow4P/tYXG/5Y5llriNcxKLLKht18OrjaKMSm2
+GU5MIN08G7yZ46ye/DONqp9d7Eg5hK4+Lf0wzhsBrj72jB8/dBA1KK0BCBuUTVQDVKXnHMy+Ek/N
+DJ+566oDdaoj1qxoPwnY3FkKKjeqAmJ0HxLEew==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
